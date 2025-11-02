@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Secret Crossword — Young Sherlock Holmes: Death Cloud</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script defer="defer" src="script.js"></script>
+</head>
+
+<body>
+    <div id="parchment">
+        <h1>Greetings</h1>
+        <p>Seek the truth within each clue.<br />
+            One letter hides, yet all shine through.<br />
+            The name of what young Holmes must keep.<br />
+            It’s in the letters, buried deep.</p>
+        <p>If you don’t want to solve the riddle, click <a target="_blank" href="https://qrco.de/bgQHJ8">here</a></p>
+
+        <table id="crossword">
+            <tr data-answer="SHERLOCK">
+                <td class="empty"></td>
+                <td class="empty"></td>
+                <td class="empty"></td>
+                <td class="empty"></td>
+                <td class="empty"></td>
+                <td class="empty"></td>
+                <td class="empty"></td>
+                <td class="empty"></td>
+                <td class="empty"></td>
+                <td class="secret"><input maxlength="1"></td>
+                <td><input maxlength="1"></td>
+                <td><input maxlength="1"></td>
+                <td><input maxlength="1"></td>
+                <td><input maxlength="1"></td>
+                <td><input maxlength="1"></td>
+                <td><input maxlength="1"></td>
+                <td><input maxlength="1"></td>
+            </tr>
+            <tr data-answer="AMYUSCROWE">
+                <td><input maxlength="1"></td>
+                <td><input maxlength="1"></td>
+                <td><input maxlength="1"></td>
+                <td><input maxlength="1"></td>
+                <td><input maxlength="1"></td>
+                <td><input maxlength="1"></td>
+                <td><input maxlength="1"></td>
+                <td><input maxlength="1"></td>
+                <td><input maxlength="1"></td>
+                <td class="secret"><input maxlength="1"></td>
+                <td class="empty"></td>
+                <td class="empty"></td>
+                <td class="empty"></td>
+                <td class="empty"></td>
+                <td class="empty"></td>
+                <td class="empty"></td>
+                <td class="empty"></td>
+            </tr>
+            <tr data-answer="DEATHCLOUD">
+                <td class="empty"></td>
+                <td class="empty"></td>
+                <td class="empty"></td>
+                <td class="empty"></td>
+                <td><input maxlength="1"></td>
+                <td><input maxlength="1"></td>
+                <td><input maxlength="1"></td>
+                <td><input maxlength="1"></td>
+                <td><input maxlength="1"></td>
+                <td class="secret"><input maxlength="1"></td>
+                <td><input maxlength="1"></td>
+                <td><input maxlength="1"></td>
+                <td><input maxlength="1"></td>
+                <td><input maxlength="1"></td>
+                <td class="empty"></td>
+                <td class="empty"></td>
+                <td class="empty"></td>
+            </tr>
+            <tr data-answer="RANGOORA">
+                <td class="empty"></td>
+                <td class="empty"></td>
+                <td class="empty"></td>
+                <td><input maxlength="1"></td>
+                <td><input maxlength="1"></td>
+                <td><input maxlength="1"></td>
+                <td><input maxlength="1"></td>
+                <td><input maxlength="1"></td>
+                <td><input maxlength="1"></td>
+                <td class="secret"><input maxlength="1"></td>
+                <td><input maxlength="1"></td>
+                <td class="empty"></td>
+                <td class="empty"></td>
+                <td class="empty"></td>
+                <td class="empty"></td>
+                <td class="empty"></td>
+                <td class="empty"></td>
+            </tr>
+            <tr data-answer="FARNHAMESTATE">
+                <td class="empty"></td>
+                <td class="empty"></td>
+                <td><input maxlength="1"></td>
+                <td><input maxlength="1"></td>
+                <td><input maxlength="1"></td>
+                <td><input maxlength="1"></td>
+                <td><input maxlength="1"></td>
+                <td><input maxlength="1"></td>
+                <td><input maxlength="1"></td>
+                <td class="secret"><input maxlength="1"></td>
+                <td><input maxlength="1"></td>
+                <td><input maxlength="1"></td>
+                <td><input maxlength="1"></td>
+                <td><input maxlength="1"></td>
+                <td><input maxlength="1"></td>
+                <td class="empty"></td>
+                <td class="empty"></td>
+            </tr>
+            <tr data-answer="MATTY">
+                <td class="empty"></td>
+                <td class="empty"></td>
+                <td class="empty"></td>
+                <td class="empty"></td>
+                <td class="empty"></td>
+                <td class="empty"></td>
+                <td class="empty"></td>
+                <td><input maxlength="1"></td>
+                <td><input maxlength="1"></td>
+                <td class="secret"><input maxlength="1"></td>
+                <td><input maxlength="1"></td>
+                <td><input maxlength="1"></td>
+                <td class="empty"></td>
+                <td class="empty"></td>
+                <td class="empty"></td>
+                <td class="empty"></td>
+                <td class="empty"></td>
+            </tr>
+        </table>
+
+        <div style="display: none; font-family: matura;" id="secret">
+            <label for="secret-input">Enter the secret password:</label>
+            <input name="secret-input" id="secret-input" />
+            <button id="validate-password">Reveal</button>
+            <p class="message"></p>
+            <a target="_blank" style="display: none;" href="https://qrco.de/bgQHJ8">Navigate to the secret document</a>
+        </div>
+        <ol id="steps">
+            <li>The brilliant young detective himself</li>
+            <li>The loyal American tutor and mentor</li>
+            <li>The mysterious and dangerous substance that links everything</li>
+            <li>The countryside home where Sherlock stays</li>
+            <li>Sherlock’s new adventurous friend</li>
+        </ol>
+
+    </div>
+</body>
+
+</html>
